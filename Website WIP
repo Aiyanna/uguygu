@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Lucida Console", Monospace}
+</style>
+<body class="w3-pale-blue">
+
+  <!-- Navbar -->
+<ul class="w3-navbar w3-left-align w3-pale-blue w3-center w3-top w3-large">
+  <li class="w3-left" style="width:33.3% !important"><a href="javascript:void(0)" class="w3-text-teal">Home</a></li>
+  <li class="w3-left" style="width:33.3% !important"><a href="javascript:void(0)">About</a></li>
+  <li class="w3-left" style="width:33.3% !important"><a href="javascript:void(0)">Contact</a></li>
+</ul>
+
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<div class="w3-container w3-center w3-padding-32">
+  <h1><b>Aiyanna Tacco</b></h1>
+  <p> <span class="w3-tag">Welcome to my portfolio </p>
+</div>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="Fake Anime Screenshot.png" alt="Drawing" style="width:100%">
+    <div class="w3-container w3-padding-8">
+      <h3><b>W.I.P</b></h3>
+      <h5>Program:Pencil for MAC, <span class="w3-opacity">September 28, 2016</h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Stuff im working on i guess?.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-btn w3-padding-large w3-white w3-border w3-hover-border-black"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="Mystery.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container w3-padding-8">
+      <h3><b>Digital Drawings</b></h3>
+      <h5>TFinished works, <span class="w3-opacity">April 2, 2014</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Information i dont know to put in yet.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-btn w3-padding-large w3-white w3-border w3-hover-border-black"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="Sketch.png" alt="Drawing" style="width:100%">
+    <div class="w3-container w3-padding-8">
+      <h3><b>Trandtional Art</b></h3>
+      <h5>This drawing is old/ only one i have on hand right now. <span class="w3-opacity">September 28, 2016</h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Stuff im working on i guess?.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-btn w3-padding-large w3-white w3-border w3-hover-border-black"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="Maj.png" alt="Drawing" style="width:100%">
+    <div class="w3-container w3-padding-8">
+      <h3><b>Crochet</b></h3>
+      <h5> Things i have Crochet by hand <span class="w3-opacity">September 28, 2016</h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Stuff im working on i guess?.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-btn w3-padding-large w3-white w3-border w3-hover-border-black"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+<!-- END BLOG ENTRIES -->
+</div>
+
+
+<!-- Introduction menu -->
+<div class="w3-col l4 w3-hide-medium w3-hide-small">
+  <!-- About Card -->
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="Datme.png
+  " style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Aiyanna Tacco</b></h4>
+      <p>I'm just a dork whose life revolves around art. I want to become a succseful animator one day, hopefuly that becomes a reality.</p>
+    </div>
+  </div><hr>
+
+  <!-- Accordion -->
+<div class="w3-card-2 w3-round">
+  <div class="w3-accordion w3-white">
+    <button onclick="myFunction('Demo1')" class="class="w3-btn w3-light-grey"><i class="fa fa-circle-o-notch fa-fw w3-margin-left"></i> /Contact Me</button>
+    <div id="Demo1" class="w3-accordion-content w3-container">
+      <p>Some text..</p>
+    </div>
+    <button onclick="myFunction('Demo2')" class="w3-btn w3-light-grey"><i class="fa fa-calendar-check-o fa-fw w3-margin-left"></i> Commision Me</button>
+    <div id="Demo2" class="w3-accordion-content w3-container">
+      <p>Some other text..</p>
+    </div>
+    <button onclick="myFunction('Demo3')" class="w3-btn w3-light-grey"><button class="w3-btn w3-white w3-border w3-border-blue w3-round">Idk</button>
+   <div id="Demo3" class="w3-accordion-content w3-container">
+   <div class="w3-row-padding">
+   <bri>
+
+  <!-- Labels / tags -->
+  <div class="w3-card-2 w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Harambe</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Was</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">An</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Inside</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Job</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">From</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">The</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Government</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Itself</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">No</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">One</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Is</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Safe</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">R.I.P</span>
+    </p>
+    </div>
+  </div>
+
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-btn w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-btn w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
